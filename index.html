@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,700;1,400&family=Cabin:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Lista de Tarefas</title>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./Css/style.css">
+</head>
+
+<body>
+  <div class="conteiner">
+    <h1>Lista de Tarefas 
+      <span>
+        <i class="fa-solid fa-clipboard-list" ></i>
+      </span>
+    </h1>
+    <form id="painel">
+      <input type="text" id="escrever-tarefa" placeholder="Digite sua tarefa a ser feita" required>
+      <button type="submit" id="adicionar-tarefa">Adicionar tarefa</button>
+      <button type="button" id="remover-tarefa">limpar Tarefa</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th class="Status">Status</th>
+          <th class="Tarefa">Tarefas</th>
+          <th class="Excluir">Excluir</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/c9300dc781.js" crossorigin="anonymous"></script>
+  <script src="./Js/main.js"></script>
+</body>
+</html>

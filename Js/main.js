@@ -35,4 +35,7 @@ $(document).ready(function() {
       paragrafo.css('text-decoration', 'none');
     }
   });
+  $('#remover-tarefa').on('click', function() {
+    $('tbody').empty();
+  });
 })
